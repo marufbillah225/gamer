@@ -1,0 +1,433 @@
+/* Common styles */
+* {
+    margin: 0px;
+}
+
+body {
+    font-family: 'Lato', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Work Sans', sans-serif;
+}
+
+/* header styles starting */
+header {
+    padding: 10px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.05);
+
+}
+
+.nav-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: auto;
+    max-width: 1440px;
+}
+
+.logo-container {
+    width: 50%;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.logo-container img {
+    width: 50px;
+}
+
+.logo-container p {
+    text-align: center;
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.g-color {
+    color: #FF42A5;
+}
+
+.nav-items {
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+}
+
+.nav-items a {
+    text-decoration: none;
+    color: #3C354F;
+    text-align: center;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.followus {
+    padding: 10px 15px;
+    border-radius: 8px;
+    background: rgba(11, 2, 35, 0.10);
+    text-align: center;
+}
+
+.followus .youtube {
+    color: red;
+    padding: 0px 5px;
+}
+
+.followus .tiktok {
+    color: #08FFF9;
+    padding-left: 5px;
+}
+
+/* header styles end */
+
+/* Banner sections styles start */
+.banner-section {
+    /* border: 1px solid green; */
+    background-image: url(/images/Group\ 14.png);
+    background-repeat: no-repeat;
+    background-position: left;
+    width: 100%;
+    height: 100%;
+}
+
+.banner-text {
+    padding-left: 340px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    width: 45%;
+}
+
+.banner {
+    display: flex;
+    align-items: center;
+
+}
+
+.banner-title {
+    color: #0B0223;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-transform: uppercase;
+    margin: 0px 0px 15px 0px;
+}
+
+.banner-head-title {
+    font-size: 95px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    color: transparent;
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    -webkit-background-clip: text;
+    margin-bottom: 20px;
+}
+
+.banner-description {
+    color: #534C64;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-transform: lowercase;
+    margin: 20px 0px;
+}
+
+.primary-button {
+    color: #FFFFFF;
+    font-size: 20px;
+    margin: 10px 10px;
+    display: inline;
+    padding: 21px 40px;
+    gap: 10px;
+    border: none;
+    border-radius: 48px;
+    background: var(--Linear, linear-gradient(90deg, #FF42A5 13.13%, #FF42A5 87.94%));
+}
+
+.button {
+    color: #FFFFFF;
+    font-size: 20px;
+    margin: 10px 10px;
+    padding: 21px 40px;
+    border: none;
+    border-radius: 48px;
+    background: #4EC5F7;
+}
+
+.banner-image {
+    width: 60%;
+
+}
+
+.banner-image-container {
+    width: 50%;
+
+}
+
+.banner-image {
+    width: auto;
+}
+
+/* Banner sections styles end */
+
+/* online games styles start */
+
+.online-container {
+    margin: 120px 240px;
+}
+
+.online-image {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 20px;
+
+}
+
+.online-title {
+    color: #0B0223;
+    text-align: center;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.online-subtitle {
+    font-size: 48px;
+    color: transparent;
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    -webkit-background-clip: text;
+}
+
+.online-text {
+    margin: 15px 0px 30px 0px;
+    color: #534C64;
+    text-align: center;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+/* online games styles end */
+
+/* paly games styles start */
+.play-section {
+    margin: 100px auto;
+}
+
+.playgames {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 50px;
+}
+
+.online-text-section {
+    padding-left: 240px;
+
+}
+
+.online-title {
+    text-align: center;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 60px;
+
+}
+
+.onilne-text {
+    color: #534C64;
+    text-align: center;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    width: 350px;
+    height: 100px;
+    margin: auto;
+}
+
+.second-play-image {
+    position: relative;
+    right: 750px;
+}
+
+/* paly games styles end */
+
+button text section styles start
+.button-section {
+    border: 15px solid yellowgreen;
+    background: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 13.13%, rgba(255, 66, 165, 0.03) 87.94%);
+}
+
+.first-button-section {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    /* border: 10px solid green;
+} */
+
+    .second-button-text {
+        border: 1px solid gray;
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+
+    }
+
+    .common-button {
+        display: flex;
+        align-items: center;
+    }
+
+    .second-button-text .common-button {}
+
+    /* button text section styles end */
+
+
+    /* footer styles start */
+
+.footer-section{
+    margin: 50px;
+    border: 5px solid green;
+}
+.footer-text{
+    margin-top: 200px;
+    border: 2px solid green;
+}
+
+
+
+
+
+
+
+
+    /* Responsive for mobile and tabler */
+
+    /* For mobile version */
+    @media screen and (max-width:425px) {
+
+        .nav-container,
+        .nav-items,
+        .online-image {
+            flex-direction: column;
+            padding: 10px;
+        }
+
+        .banner {
+            flex-direction: column-reverse
+        }
+
+        .followus,
+        .banner-image {
+            width: 100%;
+        }
+
+        .banner-text {
+            padding-left: 10px;
+            padding-top: 50px;
+            padding-bottom: 50px;
+            width: 100%;
+        }
+
+        .banner-title {
+            color: #0B0223;
+            font-size: 25px;
+        }
+
+        .banner-head-title {
+            font-size: 55px;
+        }
+
+        .banner-description {
+            font-size: 15px;
+        }
+
+        .primary-button {
+
+            font-size: 15px;
+            display: inline;
+            padding: 10px 20px;
+            gap: 10px;
+        }
+
+        .button {
+            font-size: 15px;
+        }
+
+        .online-image {
+            display: flex;
+            align-items: center;
+            justify-content: space-evenly;
+            gap: 20px;
+
+        }
+    }
+
+
+    /* For tablet version */
+    @media screen and (min-width:426px) and (max-width:768px) {
+
+        .nav-container,
+        .nav-items {
+            flex-direction: column;
+            padding: 10px;
+        }
+
+        .banner {
+            flex-direction: column-reverse
+        }
+
+        .followus {
+            width: auto;
+
+        }
+
+        .logo-container {
+            width: 100%;
+            justify-content: center;
+        }
+
+        .banner-text {
+            padding-left: 10px;
+            padding-top: 50px;
+            padding-bottom: 50px;
+            width: 100%;
+        }
+
+        .banner-title {
+            color: #0B0223;
+            font-size: 25px;
+        }
+
+        .banner-head-title {
+            font-size: 55px;
+        }
+
+        .banner-description {
+            font-size: 15px;
+        }
+
+        .primary-button {
+
+            font-size: 15px;
+            display: inline;
+            padding: 10px 20px;
+            gap: 10px;
+        }
+
+        .button {
+            font-size: 15px;
+        }
+    }
+
+}
